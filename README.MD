@@ -1,13 +1,13 @@
-Starts kafka + zookeper containers:
+Starts kafka + zookeper containers:<br/>
 docker-compose up -d
 
 check up containers:
 docker-compose ps
 
-Enter in kafka container:
+Enter in kafka container:<br/>
 docker exec -it kafka bash
 
-Creates kafka topic:
+Creates kafka topic:<br/>
 if container doesn't find kafka topic then execute "whereis kafka-topics"
 so the terminal will returns /opt/kafka_2.13-2.8.1/bin/kafka-topics.sh.
 
