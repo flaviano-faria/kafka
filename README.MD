@@ -1,4 +1,6 @@
 Starts kafka + zookeper containers:<br/>
+
+url: https://github.com/confluentinc/cp-docker-images/blob/5.3.3-post/examples/kafka-cluster/docker-compose.yml
 docker-compose up -d
 
 check up containers:
